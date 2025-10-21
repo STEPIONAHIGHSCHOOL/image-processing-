@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt​
 
 # Load the image​
 image = cv2.imread("bird.jpg")  # replace with any image, e.g., "dog.jpg"​
+print(image.shape) # Output: height, width, 3)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)​
 
 # Apply effects for guessing game​
