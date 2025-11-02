@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt​
 
 # Load the image​
-image = cv2.imread("bird.jpg")  # replace with any image, e.g., "dog.jpg"​
+image = cv2.imread("cat.png")  # replace with any image, e.g., "dog.jpg"​or "dog.png"
 print(image.shape) # Output: height, width, 3)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)​
 
